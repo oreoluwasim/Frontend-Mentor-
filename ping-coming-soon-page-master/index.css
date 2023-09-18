@@ -1,0 +1,234 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+p{
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+.logo{
+    width: 58px;
+    margin-left: 158px;
+    margin-bottom: 34px;
+    margin-top: 76px;
+    
+      
+}
+.header{
+    align-items: center;
+    justify-content: center;
+}
+.user-input {
+    margin-left: 27px;
+}
+  
+.email-input{
+    width: 342px;
+    padding-left: 50px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border: solid hsl(223, 100%, 88%) 1px ;
+    color: hsl(0, 0%, 59%);
+    
+
+}
+.notify-button{
+    width: 342px;
+    background-color: hsl(223, 87%, 63%);
+    border: none;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+#launch-text{
+    color: hsl(0, 0%, 59%);
+    font-size: 30px;
+    margin-left: 32px;
+    margin-bottom: 20px;
+
+}
+#subscribe-text{
+    font-size: 15px;
+    margin-left: 93px;
+
+}
+.image{
+    width: 391px;
+}
+.social-image{
+    width: 15px;
+    
+}
+.social-button{
+    color: hsl(223, 87%, 63%);
+    border: solid hsl(223, 100%, 88%) 1px ;
+    background-color: white;
+    width: 26px;
+    border-radius: 63px;
+    margin-left: 6px;
+}
+.social-button-box {
+    margin-left: 130px;
+    margin-top: 187px;
+}
+#copy-right-tag {
+    margin-left: 108px;
+    margin-top: 41px;
+    font-size: 10px;
+    color:hsl(0, 0%, 59%) ;
+  }
+ /* #emailError {
+    display: none;
+    font-size: 0.8em;
+  }
+  
+  #emailError.visible {
+    display: block;
+    color: red;
+  }*/
+  
+ /* input.invalid {
+    border-color: red;
+  }*/
+  label.error.fail-alert{
+    color: red;
+
+  }
+  input.error.fail-alert {
+
+    border: 2px solid red;
+    
+    color: red;}
+    
+  
+    @media only screen and (min-width: 1200px) {
+        .box{
+            display: flex;
+        }
+        #e-box{
+            display: inline-block;
+            width: 349px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        #b-box{
+            display: inline-block;
+            margin-top: 0;
+            margin-bottom: auto;
+        }
+        .logo{
+            width: 93px;
+            margin-left: 507px;
+            margin-bottom: 34px;
+            margin-top: 76px;
+            
+              
+        }
+        .header{
+            align-items: center;
+            justify-content: center;
+        }
+        .user-input {
+            
+            margin-left: 291px;
+        }
+          
+        .email-input{
+            width: 342px;
+            padding-left: 50px;
+            padding-right: 0px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 20px;
+            border: solid hsl(223, 100%, 88%) 1px ;
+            color: hsl(0, 0%, 59%);
+            
+        
+        }
+        .notify-button{
+            width: 170px;
+            background-color: hsl(223, 87%, 63%);
+            border: none;
+            color: white;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            border-radius: 20px;
+            margin-top: 12px;
+            
+        }
+        #launch-text{
+            color: hsl(0, 0%, 59%);
+            font-size: 39px;
+            margin-left: 343px;
+            margin-bottom: 20px;
+        
+        }
+        #subscribe-text{
+            font-size: 15px;
+            margin-left: 472px;
+            margin-top: -16px;
+        
+        }
+        .image{
+            width: 656px;
+            margin-left: 222px;
+        }
+        .social-image{
+            width: 15px;
+            
+        }
+        .social-button{
+            color: hsl(223, 87%, 63%);
+            border: solid hsl(223, 100%, 88%) 1px ;
+            background-color: white;
+            width: 26px;
+            border-radius: 63px;
+            margin-left: 6px;
+        }
+        .social-button-box {
+            margin-left: 495px;
+            margin-top: 72px;
+        }
+        #copy-right-tag {
+            margin-left: 464px;
+            margin-top: 41px;
+            font-size: 10px;
+            color:hsl(0, 0%, 59%) ;
+          }
+         /* #emailError {
+            display: none;
+            font-size: 0.8em;
+          }
+          
+          #emailError.visible {
+            display: block;
+            color: red;
+          }*/
+          
+         /* input.invalid {
+            border-color: red;
+          }*/
+          label.error.fail-alert{
+            color: red;
+            /*display: block;*/
+        
+          }
+          input.error.fail-alert {
+        
+            border: 2px solid red;
+            
+            color: red;}
+            .btn-box{
+                margin-left: 345px;
+                margin-top: -72px;
+            }
+            #notif {
+                margin-top: 0px;
+              }
+              
+            
+    }
+  
+
